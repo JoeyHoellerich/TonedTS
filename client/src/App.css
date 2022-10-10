@@ -1,0 +1,110 @@
+body {
+  background-color: #2d3339;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.loginImg {
+  width: 25%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/* Styling for the Table Container */
+.MuiTableContainer-root {
+  border: 4px solid white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Styling for Date above workout group */
+.workoutDate {
+  color: #e4e4e4;
+  font-weight: 400;
+  font-style: italic;
+  font-size: large;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Styling for Inputs */
+
+.tonedInputLabel {
+  color: #9EFFC5;
+  font-weight: 600;
+  font-size: large;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  padding-left: 5px;
+}
+
+.tonedInput {
+  background-color: #E4E4E4;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 95%;
+  height: 2em;
+  font-size: large;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.tonedLabel {
+  color: #E4E4E4;
+  text-align: center;
+  font-style: italic;
+  font-size: x-large;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.errorMsg {
+  text-align: center;
+  color: #F6C971;
+  font-size: large;
+}
+
+.loginBtn {
+  background-color: #9EFFC5;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 1.25em;
+  height: 2em;
+  font-weight: 600;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: 2%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+
+}
+
+.tonedButton {
+  background-color: #9EFFC5;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100%;
+  height: 2em;
+  font-size: x-large;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+.navbarImg {
+  width: 50px;
+}
